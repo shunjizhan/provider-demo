@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/shunjizhan/.nvm/versions/node/v16.16.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add @polkadot/api @acala-network-providers
+
+PATH: 
+  /usr/local/opt/libpq/bin:/Users/shunjizhan/.nvm/versions/node/v16.16.0/bin:/Users/shunjizhan/.cargo/bin:/Users/shunjizhan/.pyenv/shims:/Users/shunjizhan/.pyenv/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/shunjizhan/.foundry/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@acala-network-providers: Request "https://registry.npmjs.org/@acala-network-providers" returned a 405
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:66997:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:140749:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141721:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "provider-demo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
